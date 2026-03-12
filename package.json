@@ -1,0 +1,31 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://t:eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmNoaWRzIiwic3ViIjoiQHBpZXJyZS9zdG9yYWdlIiwicmVwbyI6IjM3MWIxYjg4LTU2MTMtNGUwOS04MTdiLTViOTA3YmU5MWU1MCIsInNjb3BlcyI6WyJnaXQ6cmVhZCIsImdpdDp3cml0ZSJdLCJpYXQiOjE3NzMzMDM1NjAsImV4cCI6MTgwNDQwNzU2MH0.iIm3wokCJk7GD0LKljeOwLKLJtPP2s9ph5mkniXpYNATSRbn6qsCwNMD6gFQ17gb55OvtC-tog3Tsy0kdikM7Q@orchids.code.storage/371b1b88-5613-4e09-817b-5b907be91e50.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "node-cache": "^5.1.2",
+    "node-cron": "^4.2.1",
+    "uuid": "^13.0.0"
+  }
+}

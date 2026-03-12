@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media + Sports + Anime Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-a"></div>
+    <div class="bg-shape bg-b"></div>
+
+    <main class="container">
+      <header class="hero">
+        <h1>Media and Sports Streaming API</h1>
+        <p>Live sports, auto streams, and Kitsu anime in one place.</p>
+      </header>
+
+      <section class="panel search-panel">
+        <div class="search-row">
+          <input id="animeQuery" type="text" placeholder="Search anime (e.g. Naruto)" />
+          <button id="animeSearchBtn">Search Anime</button>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="panel">
+          <h2>Anime</h2>
+          <p class="hint">Powered by Kitsu</p>
+          <div id="animeList" class="list"></div>
+        </article>
+
+        <article class="panel">
+          <h2>Live Sports</h2>
+          <p class="hint">All sports, not only scores</p>
+          <div id="sportsList" class="list"></div>
+        </article>
+
+        <article class="panel">
+          <h2>Auto Streams</h2>
+          <p class="hint">Aggregated stream links</p>
+          <div id="streamsList" class="list"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
