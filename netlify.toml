@@ -1,0 +1,12 @@
+# Netlify doesn't natively support Python APIs.
+# To deploy on Netlify, use the Docker-based approach:
+#   1. Build the Docker image: docker build -t flixfox-proxy .
+#   2. Deploy to Netlify using netlify-cli with a container-based setup
+#
+# Alternatively, use Vercel, Railway, or Render which have native Python support.
+#
+# If using Netlify Functions with a Node.js wrapper, see api/index.js (legacy).
+
+[build]
+  command = "echo 'Python API - use Docker or alternative platform'"
+  publish = "public"
